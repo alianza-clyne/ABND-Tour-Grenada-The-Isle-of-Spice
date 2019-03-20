@@ -52,7 +52,7 @@ public class NumbersFragment extends Fragment {
                 R.drawable.number_nine));
         words.add(new Word(R.string.number_ten, R.string.miwok_number_ten,
                 R.drawable.number_ten));
-        
+
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
