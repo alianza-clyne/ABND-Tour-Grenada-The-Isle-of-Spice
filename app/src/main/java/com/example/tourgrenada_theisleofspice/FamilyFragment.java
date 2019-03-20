@@ -51,7 +51,7 @@ public class FamilyFragment extends Fragment {
                 R.drawable.family_grandmother));
         words.add(new Word(R.string.family_grandfather, R.string.miwok_family_grandfather,
                 R.drawable.family_grandfather));
-        
+
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
