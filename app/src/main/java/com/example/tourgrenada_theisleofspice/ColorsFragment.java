@@ -30,7 +30,7 @@ public class ColorsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        /*
+
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.string.color_red, R.string.miwok_color_red,
@@ -49,8 +49,9 @@ public class ColorsFragment extends Fragment {
                 R.drawable.color_black));
         words.add(new Word(R.string.color_white, R.string.miwok_color_white,
                 R.drawable.color_white));
-        */
 
+
+        /*
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.string.color_red, R.string.miwok_color_red,
@@ -69,6 +70,7 @@ public class ColorsFragment extends Fragment {
                 R.drawable.color_black, R.raw.color_black));
         words.add(new Word(R.string.color_white, R.string.miwok_color_white,
                 R.drawable.color_white, R.raw.color_white));
+         */
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

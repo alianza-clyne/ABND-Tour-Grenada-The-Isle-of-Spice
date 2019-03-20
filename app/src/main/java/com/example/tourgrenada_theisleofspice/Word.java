@@ -25,7 +25,7 @@ public class Word {
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
-     * Create a new Word object.
+     * Create a new Word object - words with no image.
      *
      * @param defaultTranslationId is the string resource ID for the word in a language that the
      *                             user is already familiar with (such as English)
@@ -45,23 +45,30 @@ public class Word {
     */
 
     /**
-     * Create a new Word object.
+     * Create a new Word object words with image.
      *
      * @param defaultTranslationId is the string resource ID for the word in a language that the
      *                             user is already familiar with (such as English)
      * @param miwokTranslationId is the string resource Id for the word in the Miwok language
      * @param imageResourceId is the drawable resource ID for the image associated with the word
-     * @param audioResourceId is the resource ID for the audio file associated with this word
+     * @para audioResourceId is the resource ID for the audio file associated with this word
      */
+
+    public Word(int defaultTranslationId, int miwokTranslationId, int imageResourceId) {
+        mDefaultTranslationId = defaultTranslationId;
+        mMiwokTranslationId = miwokTranslationId;
+        mImageResourceId = imageResourceId;
+    }
+
+    /*
     public Word(int defaultTranslationId, int miwokTranslationId, int imageResourceId,
                 int audioResourceId) {
         mDefaultTranslationId = defaultTranslationId;
         mMiwokTranslationId = miwokTranslationId;
         mImageResourceId = imageResourceId;
-        /*
         mAudioResourceId = audioResourceId;
-        */
     }
+    */
 
     /**
      * Get the string resource ID for the default translation of the word.
