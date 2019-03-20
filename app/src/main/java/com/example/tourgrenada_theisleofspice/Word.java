@@ -14,7 +14,9 @@ public class Word {
     private int mMiwokTranslationId;
 
     /** Audio resource ID for the word */
+    /*
     private int mAudioResourceId;
+    */
 
     /** Image resource ID for the word */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -28,13 +30,19 @@ public class Word {
      * @param defaultTranslationId is the string resource ID for the word in a language that the
      *                             user is already familiar with (such as English)
      * @param miwokTranslationId is the string resource Id for the word in the Miwok language
-     * @param audioResourceId is the resource ID for the audio file associated with this word
+     *  audioResourceId is the resource ID for the audio file associated with this word
      */
+    public Word(int defaultTranslationId, int miwokTranslationId) {
+        mDefaultTranslationId = defaultTranslationId;
+        mMiwokTranslationId = miwokTranslationId;
+    }
+    /*
     public Word(int defaultTranslationId, int miwokTranslationId, int audioResourceId) {
         mDefaultTranslationId = defaultTranslationId;
         mMiwokTranslationId = miwokTranslationId;
         mAudioResourceId = audioResourceId;
     }
+    */
 
     /**
      * Create a new Word object.
@@ -50,7 +58,9 @@ public class Word {
         mDefaultTranslationId = defaultTranslationId;
         mMiwokTranslationId = miwokTranslationId;
         mImageResourceId = imageResourceId;
+        /*
         mAudioResourceId = audioResourceId;
+        */
     }
 
     /**
@@ -81,11 +91,14 @@ public class Word {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
+
     /**
      * Return the audio resource ID of the word.
      */
+    /*
     public int getAudioResourceId() {
         return mAudioResourceId;
     }
+    */
 
 }
