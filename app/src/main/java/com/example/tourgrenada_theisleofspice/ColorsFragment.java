@@ -49,7 +49,7 @@ public class ColorsFragment extends Fragment {
                 R.drawable.color_black));
         words.add(new Word(R.string.color_white, R.string.miwok_color_white,
                 R.drawable.color_white));
-        
+
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
