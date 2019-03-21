@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 
 /**
- * {@link Fragment} that displays a list of color vocabulary words.
+ * {@link Fragment} that displays a list of hotels and resorts in Grenada.
  */
 public class HotelsResortsFragment extends Fragment {
 
