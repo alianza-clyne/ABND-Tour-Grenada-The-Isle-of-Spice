@@ -1,74 +1,71 @@
 package com.example.tourgrenada_theisleofspice;
 
 /**
- * {@link Item} represents a vocabulary word that the user wants to learn.
- * It contains resource IDs for the default translation, Miwok translation, and
- * an optional image file for that word.
+ * {@link Item} represents an item related to Grenada that a user can learn more about.
+ * It contains resource IDs for the Item's name, Item's description, and
+ * an optional image file for that item.
  */
 public class Item {
 
-    /** String resource ID for the default translation of the word */
-    private int mDefaultTranslationId;
+    /** String resource ID for the Item's name */
+    private int mItemNameId;
 
-    /** String resource ID for the Miwok translation of the word */
-    private int mMiwokTranslationId;
+    /** String resource ID for the Item's description */
+    private int mItemDescriptionId;
 
-    /** Image resource ID for the word */
+    /** Image resource ID for the Item */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    /** Constant value that represents no image was provided for this word */
+    /** Constant value that represents no image was provided for this Item */
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
-     * Create a new Item object - words with no image.
-     *
-     * @param defaultTranslationId is the string resource ID for the word in a language that the
-     *                             user is already familiar with (such as English)
-     * @param miwokTranslationId is the string resource Id for the word in the Miwok language
+     * Create a new Item object - items with no image.
+     * @param ItemNameId is the string resource Id for the Item's name
+     * @param ItemDescriptionId is the string resource ID for the Item's description
      */
-    public Item(int defaultTranslationId, int miwokTranslationId) {
-        mDefaultTranslationId = defaultTranslationId;
-        mMiwokTranslationId = miwokTranslationId;
+    public Item(int ItemDescriptionId, int ItemNameId) {
+        mItemDescriptionId = ItemDescriptionId;
+        mItemNameId = ItemNameId;
     }
 
     /**
-     * Create a new Item object words with image.
-     *
-     * @param defaultTranslationId is the string resource ID for the word in a language that the
-     *                             user is already familiar with (such as English)
-     * @param miwokTranslationId is the string resource Id for the word in the Miwok language
-     * @param imageResourceId is the drawable resource ID for the image associated with the word
+     * Create a new Item object items with image.
+     * @param ItemNameId is the string resource Id for the Item's name
+     * @param ItemDescriptionId is the string resource ID for the Item's description
+     * @param imageResourceId is the drawable resource ID for the image associated with the Item
      */
 
-    public Item(int defaultTranslationId, int miwokTranslationId, int imageResourceId) {
-        mDefaultTranslationId = defaultTranslationId;
-        mMiwokTranslationId = miwokTranslationId;
+    public Item(int ItemDescriptionId, int ItemNameId, int imageResourceId) {
+        mItemNameId = ItemNameId;
+        mItemDescriptionId = ItemDescriptionId;
         mImageResourceId = imageResourceId;
     }
 
+
     /**
-     * Get the string resource ID for the default translation of the word.
+     * Get the string resource ID for the Item's name.
      */
-    public int getDefaultTranslationId() {
-        return mDefaultTranslationId;
+    public int getItemNameId() {
+        return mItemNameId;
     }
 
     /**
-     * Get the string resource ID for the Miwok translation of the word.
+     * Get the string resource ID for the Item's description.
      */
-    public int getMiwokTranslationId() {
-        return mMiwokTranslationId;
+    public int getItemDescriptionId() {
+        return mItemDescriptionId;
     }
 
     /**
-     * Return the image resource ID of the word.
+     * Return the image resource ID of this Item.
      */
     public int getImageResourceId() {
         return mImageResourceId;
     }
 
     /**
-     * Returns whether or not there is an image for this word.
+     * Returns whether or not there is an image for this Item.
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;

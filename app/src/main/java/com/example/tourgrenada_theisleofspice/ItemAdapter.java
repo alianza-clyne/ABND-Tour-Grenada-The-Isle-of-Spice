@@ -50,13 +50,13 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
         // Get the Miwok translation from the currentItem object and set this text on
         // the Miwok TextView.
-        miwokTextView.setText(currentItem.getMiwokTranslationId());
+        miwokTextView.setText(currentItem.getItemNameId());
 
         // Find the TextView in the list_individual_itemvidual_item.xml layout with the ID default_text_view.
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
         // Get the default translation from the currentItem object and set this text on
         // the default TextView.
-        defaultTextView.setText(currentItem.getDefaultTranslationId());
+        defaultTextView.setText(currentItem.getItemDescriptionId());
 
 
         // Find the ImageView in the list_individual_item.xmlal_item.xml layout with the ID image.
