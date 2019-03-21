@@ -40,26 +40,26 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+                    R.layout.list_individual_item, parent, false);
         }
 
         // Get the {@link Item} object located at this position in the list
         Item currentItem = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID miwok_text_view.
+        // Find the TextView in the list_individual_itemvidual_item.xml layout with the ID miwok_text_view.
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
         // Get the Miwok translation from the currentItem object and set this text on
         // the Miwok TextView.
         miwokTextView.setText(currentItem.getMiwokTranslationId());
 
-        // Find the TextView in the list_item.xml layout with the ID default_text_view.
+        // Find the TextView in the list_individual_itemvidual_item.xml layout with the ID default_text_view.
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
         // Get the default translation from the currentItem object and set this text on
         // the default TextView.
         defaultTextView.setText(currentItem.getDefaultTranslationId());
 
 
-        // Find the ImageView in the list_item.xml layout with the ID image.
+        // Find the ImageView in the list_individual_item.xmlal_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
         // Check if an image is provided for this word or not
         if (currentItem.hasImage()) {
