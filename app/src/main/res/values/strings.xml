@@ -8,7 +8,7 @@
     <!-- Category name for Things To Do [CHAR LIMIT=20] -->
     <string name="category_things_to_do">Things To Do</string>
 
-    <!-- Category name for the Hotels & Resorts [CHAR LIMIT=20] -->
+    <!-- Category name for Hotels & Resorts [CHAR LIMIT=20] -->
     <string name="category_hotels_resorts">Hotels &amp; Resorts</string>
 
     <!-- Category name for Dining [CHAR LIMIT=20] -->
