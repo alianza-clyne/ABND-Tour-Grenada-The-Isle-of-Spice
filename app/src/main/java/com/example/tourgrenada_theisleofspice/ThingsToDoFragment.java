@@ -18,9 +18,9 @@ import java.util.ArrayList;
 /**
  * {@link Fragment} that displays a list of family vocabulary words.
  */
-public class FamilyFragment extends Fragment {
+public class ThingsToDoFragment extends Fragment {
 
-    public FamilyFragment() {
+    public ThingsToDoFragment() {
         // Required empty public constructor
     }
 

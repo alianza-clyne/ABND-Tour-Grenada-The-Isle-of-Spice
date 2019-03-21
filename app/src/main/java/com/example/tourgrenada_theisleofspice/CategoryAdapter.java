@@ -33,13 +33,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new NumbersFragment();
+            return new AboutFragment();
         } else if (position == 1) {
-            return new FamilyFragment();
+            return new ThingsToDoFragment();
         } else if (position == 2) {
-            return new ColorsFragment();
+            return new HotelsResortsFragment();
         } else {
-            return new PhrasesFragment();
+            return new DiningFragment();
         }
     }
 
