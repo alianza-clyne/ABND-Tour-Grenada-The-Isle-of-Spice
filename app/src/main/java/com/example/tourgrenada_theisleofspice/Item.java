@@ -1,11 +1,11 @@
 package com.example.tourgrenada_theisleofspice;
 
 /**
- * {@link Word} represents a vocabulary word that the user wants to learn.
+ * {@link Item} represents a vocabulary word that the user wants to learn.
  * It contains resource IDs for the default translation, Miwok translation, and
  * an optional image file for that word.
  */
-public class Word {
+public class Item {
 
     /** String resource ID for the default translation of the word */
     private int mDefaultTranslationId;
@@ -20,19 +20,19 @@ public class Word {
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
-     * Create a new Word object - words with no image.
+     * Create a new Item object - words with no image.
      *
      * @param defaultTranslationId is the string resource ID for the word in a language that the
      *                             user is already familiar with (such as English)
      * @param miwokTranslationId is the string resource Id for the word in the Miwok language
      */
-    public Word(int defaultTranslationId, int miwokTranslationId) {
+    public Item(int defaultTranslationId, int miwokTranslationId) {
         mDefaultTranslationId = defaultTranslationId;
         mMiwokTranslationId = miwokTranslationId;
     }
 
     /**
-     * Create a new Word object words with image.
+     * Create a new Item object words with image.
      *
      * @param defaultTranslationId is the string resource ID for the word in a language that the
      *                             user is already familiar with (such as English)
@@ -40,7 +40,7 @@ public class Word {
      * @param imageResourceId is the drawable resource ID for the image associated with the word
      */
 
-    public Word(int defaultTranslationId, int miwokTranslationId, int imageResourceId) {
+    public Item(int defaultTranslationId, int miwokTranslationId, int imageResourceId) {
         mDefaultTranslationId = defaultTranslationId;
         mMiwokTranslationId = miwokTranslationId;
         mImageResourceId = imageResourceId;

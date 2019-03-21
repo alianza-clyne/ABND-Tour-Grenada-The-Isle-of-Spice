@@ -25,41 +25,41 @@ public class ArtistsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
 
-        // Create a list of words
-        final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word(R.string.phrase_where_are_you_going,
+        // Create a list of items
+        final ArrayList<Item> items = new ArrayList<Item>();
+        items.add(new Item(R.string.phrase_where_are_you_going,
                 R.string.miwok_phrase_where_are_you_going));
-        words.add(new Word(R.string.phrase_what_is_your_name,
+        items.add(new Item(R.string.phrase_what_is_your_name,
                 R.string.miwok_phrase_what_is_your_name));
-        words.add(new Word(R.string.phrase_my_name_is,
+        items.add(new Item(R.string.phrase_my_name_is,
                 R.string.miwok_phrase_my_name_is));
-        words.add(new Word(R.string.phrase_how_are_you_feeling,
+        items.add(new Item(R.string.phrase_how_are_you_feeling,
                 R.string.miwok_phrase_how_are_you_feeling));
-        words.add(new Word(R.string.phrase_im_feeling_good,
+        items.add(new Item(R.string.phrase_im_feeling_good,
                 R.string.miwok_phrase_im_feeling_good));
-        words.add(new Word(R.string.phrase_are_you_coming,
+        items.add(new Item(R.string.phrase_are_you_coming,
                 R.string.miwok_phrase_are_you_coming));
-        words.add(new Word(R.string.phrase_yes_im_coming,
+        items.add(new Item(R.string.phrase_yes_im_coming,
                 R.string.miwok_phrase_yes_im_coming));
-        words.add(new Word(R.string.phrase_im_coming,
+        items.add(new Item(R.string.phrase_im_coming,
                 R.string.miwok_phrase_im_coming));
-        words.add(new Word(R.string.phrase_lets_go,
+        items.add(new Item(R.string.phrase_lets_go,
                 R.string.miwok_phrase_lets_go));
-        words.add(new Word(R.string.phrase_come_here,
+        items.add(new Item(R.string.phrase_come_here,
                 R.string.miwok_phrase_come_here));
 
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
-        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_artists);
+        ItemAdapter adapter = new ItemAdapter(getActivity(), items, R.color.category_artists);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // word_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
+        // Make the {@link ListView} use the {@link ItemAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Item} in the list.
         listView.setAdapter(adapter);
 
         return rootView;
