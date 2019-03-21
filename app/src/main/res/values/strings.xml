@@ -2,8 +2,8 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Tour Grenada - The Isle of Spice</string>
 
-    <!-- Category name for About The Isle of Spice [CHAR LIMIT=20] -->
-    <string name="category_about">About The Isle of Spice</string>
+    <!-- Category name for All About The Isle of Spice [CHAR LIMIT=20] -->
+    <string name="category_about">All About The Isle of Spice</string>
 
     <!-- Category name for Things To Do [CHAR LIMIT=20] -->
     <string name="category_things_to_do">Things To Do</string>
@@ -11,8 +11,8 @@
     <!-- Category name for Hotels & Resorts [CHAR LIMIT=20] -->
     <string name="category_hotels_resorts">Hotels &amp; Resorts</string>
 
-    <!-- Category name for Dining [CHAR LIMIT=20] -->
-    <string name="category_dining">Dining</string>
+    <!-- Category name for Scrumptious Dining [CHAR LIMIT=20] -->
+    <string name="category_dining">Scrumptious Dining</string>
 
     <!-- Category name for Grenadian Artists [CHAR LIMIT=20] -->
     <string name="category_artists">Grenadian Artists</string>
