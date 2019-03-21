@@ -38,8 +38,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new ThingsToDoFragment();
         } else if (position == 2) {
             return new HotelsResortsFragment();
-        } else {
+        } else if (position == 3) {
             return new DiningFragment();
+        } else {
+            return new ArtistsFragment();
         }
     }
 
@@ -54,13 +56,15 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.category_numbers);
+            return mContext.getString(R.string.category_about);
         } else if (position == 1) {
-            return mContext.getString(R.string.category_family);
+            return mContext.getString(R.string.category_things_to_do);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_colors);
+            return mContext.getString(R.string.category_hotels_resorts);
+        } else if (position == 3) {
+            return mContext.getString(R.string.category_dining);
         } else {
-            return mContext.getString(R.string.category_phrases);
+            return mContext.getString(R.string.category_artists);
         }
     }
 

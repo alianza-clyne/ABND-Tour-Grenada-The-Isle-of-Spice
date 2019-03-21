@@ -1,18 +1,21 @@
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok App - Lesson 5</string>
+    <string name="app_name">Tour Grenada - The Isle of Spice</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="category_phrases">Phrases</string>
+    <!-- Category name for About The Isle of Spice [CHAR LIMIT=20] -->
+    <string name="category_about">About The Isle of Spice</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
+    <!-- Category name for Things To Do [CHAR LIMIT=20] -->
+    <string name="category_things_to_do">Things To Do</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="category_numbers">Numbers</string>
+    <!-- Category name for the Hotels & Resorts [CHAR LIMIT=20] -->
+    <string name="category_hotels_resorts">Hotels &amp; Resorts</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family</string>
+    <!-- Category name for Dining [CHAR LIMIT=20] -->
+    <string name="category_dining">Dining</string>
+
+    <!-- Category name for Grenadian Artists [CHAR LIMIT=20] -->
+    <string name="category_artists">Grenadian Artists</string>
 
     <!-- Vocabulary word for the color red [CHAR LIMIT=20] -->
     <string name="color_red">red</string>
