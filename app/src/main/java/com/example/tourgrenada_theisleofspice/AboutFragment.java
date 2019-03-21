@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 
 /**
- * {@link Fragment} that displays a list of number vocabulary words.
+ * {@link Fragment} that displays basic information about Grenada.
  */
 public class AboutFragment extends Fragment {
 
