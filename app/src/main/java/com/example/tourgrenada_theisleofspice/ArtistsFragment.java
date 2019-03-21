@@ -22,7 +22,7 @@ public class ArtistsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.word_list, container, false);
+        View rootView = inflater.inflate(R.layout.item_list, container, false);
 
 
         // Create a list of items
@@ -55,7 +55,7 @@ public class ArtistsFragment extends Fragment {
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
+        // item_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link ItemAdapter} we created above, so that the
