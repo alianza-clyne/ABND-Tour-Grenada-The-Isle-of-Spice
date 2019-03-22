@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 
 /**
- * {@link Fragment} that displays a list of family vocabulary words.
+ * {@link Fragment} that displays a list of things to do in Grenada.
  */
 public class ThingsToDoFragment extends Fragment {
 
