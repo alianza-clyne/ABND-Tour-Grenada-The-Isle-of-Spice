@@ -24,9 +24,9 @@ public class Item {
      * @param ItemNameId is the string resource Id for the Item's name
      * @param ItemDescriptionId is the string resource ID for the Item's description
      */
-    public Item(int ItemDescriptionId, int ItemNameId) {
-        mItemDescriptionId = ItemDescriptionId;
+    public Item(int ItemNameId, int ItemDescriptionId) {
         mItemNameId = ItemNameId;
+        mItemDescriptionId = ItemDescriptionId;
     }
 
     /**
@@ -36,7 +36,7 @@ public class Item {
      * @param imageResourceId is the drawable resource ID for the image associated with the Item
      */
 
-    public Item(int ItemDescriptionId, int ItemNameId, int imageResourceId) {
+    public Item(int ItemNameId, int ItemDescriptionId, int imageResourceId) {
         mItemNameId = ItemNameId;
         mItemDescriptionId = ItemDescriptionId;
         mImageResourceId = imageResourceId;
