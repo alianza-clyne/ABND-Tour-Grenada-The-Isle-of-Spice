@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class ItemAdapter extends ArrayAdapter<Item> {
 
-    /** Resource ID for the background color for this list of words */
+    /** Resource ID for the background color for this list of items */
     private int mColorResourceId;
 
     /**
@@ -46,22 +46,22 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         // Get the {@link Item} object located at this position in the list
         Item currentItem = getItem(position);
 
-        // Find the TextView in the list_individual_itemvidual_item.xml layout with the ID miwok_text_view.
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
-        // Get the Miwok translation from the currentItem object and set this text on
-        // the Miwok TextView.
-        miwokTextView.setText(currentItem.getItemNameId());
+        // Find the TextView in the list_individual_item.xml layout with the ID item_name_text_view.
+        TextView ItemNameTextView = (TextView) listItemView.findViewById(R.id.item_name_text_view);
+        // Get the Item’s name from the currentItem object and set this text on
+        // the ItemName TextView.
+        ItemNameTextView.setText(currentItem.getItemNameId());
 
-        // Find the TextView in the list_individual_itemvidual_item.xml layout with the ID default_text_view.
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
-        // Get the default translation from the currentItem object and set this text on
-        // the default TextView.
-        defaultTextView.setText(currentItem.getItemDescriptionId());
+        // Find the TextView in the list_individual_item.xml layout with the ID item_description_text_view.
+        TextView ItemDescriptionTextView = (TextView) listItemView.findViewById(R.id.item_description_text_view);
+        // Get the Item’s description from the currentItem object and set this text on
+        // the ItemDescription TextView.
+        ItemDescriptionTextView.setText(currentItem.getItemDescriptionId());
 
 
-        // Find the ImageView in the list_individual_item.xmlal_item.xml layout with the ID image.
+        // Find the ImageView in the list_individual_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        // Check if an image is provided for this word or not
+        // Check if an image is provided for this Item or not
         if (currentItem.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
             imageView.setImageResource(currentItem.getImageResourceId());
