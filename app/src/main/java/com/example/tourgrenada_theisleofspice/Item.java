@@ -36,12 +36,14 @@ public class Item {
      * Create a new Item object items with image.
      * @param ItemNameId is the string resource Id for the Item's name
      * @param ItemDescriptionId is the string resource ID for the Item's description
+     * @param ItemPhotoCreditId is the string resource ID for the Item's photo credit (used if there's an image)
      * @param imageResourceId is the drawable resource ID for the image associated with the Item
      */
 
-    public Item(int ItemNameId, int ItemDescriptionId, int imageResourceId) {
+    public Item(int ItemNameId, int ItemDescriptionId, int ItemPhotoCreditId, int imageResourceId) {
         mItemNameId = ItemNameId;
         mItemDescriptionId = ItemDescriptionId;
+        mItemPhotoCreditId = ItemPhotoCreditId;
         mImageResourceId = imageResourceId;
     }
 
@@ -58,6 +60,13 @@ public class Item {
      */
     public int getItemDescriptionId() {
         return mItemDescriptionId;
+    }
+
+    /**
+     * Get the string resource ID for the Item's photo credit (used if there's an image).
+     */
+    public int getItemPhotoCreditId() {
+        return mItemPhotoCreditId;
     }
 
     /**
