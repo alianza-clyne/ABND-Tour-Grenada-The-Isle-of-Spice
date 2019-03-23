@@ -29,27 +29,27 @@ public class ThingsToDoFragment extends Fragment {
         items.add(new Item(R.string.things_to_do_overview,
                 R.string.things_to_do_overview_description,
                 R.string.things_to_do_overview_pcredit,
-                R.drawable.family_father));
+                R.drawable.things_to_do_overview));
 
         items.add(new Item(R.string.things_to_do_st_georges,
                 R.string.things_to_do_st_georges_description,
                 R.string.things_to_do_st_georges_pcredit,
-                R.drawable.family_mother));
+                R.drawable.things_to_do_st_georges));
 
         items.add(new Item(R.string.things_to_do_grand_anse,
                 R.string.things_to_do_grand_anse_description,
                 R.string.things_to_do_grand_anse_pcredit,
-                R.drawable.family_son));
+                R.drawable.things_to_do_grand_anse));
 
         items.add(new Item(R.string.things_to_do_river_antoine,
                 R.string.things_to_do_river_antoine_description,
                 R.string.things_to_do_river_antoine_pcredit,
-                R.drawable.family_daughter));
+                R.drawable.things_to_do_river_antoine));
 
         items.add(new Item(R.string.things_to_do_grand_etang,
                 R.string.things_to_do_grand_etang_description,
                 R.string.things_to_do_grand_etang_pcredit,
-                R.drawable.family_older_brother));
+                R.drawable.things_to_do_grand_etang));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
