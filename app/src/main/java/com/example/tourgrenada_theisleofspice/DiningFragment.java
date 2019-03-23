@@ -28,13 +28,19 @@ public class DiningFragment extends Fragment {
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
         items.add(new Item(R.string.dining_overview,
-                R.string.dining_overview_description));
+                R.string.dining_overview_description,
+                R.string.dining_overview_pcredit,
+                R.drawable.dining_overview));
 
         items.add(new Item(R.string.dining_by_the_sea,
-                R.string.dining_by_the_sea_description));
+                R.string.dining_by_the_sea_description,
+                R.string.dining_by_the_sea_pcredit,
+                R.drawable.dining_by_the_sea));
 
         items.add(new Item(R.string.dining_umbrella,
-                R.string.dining_umbrella_description));
+                R.string.dining_umbrella_description,
+                R.string.dining_umbrella_pcredit,
+                R.drawable.dining_umbrella));
 
         items.add(new Item(R.string.dining_tikis,
                 R.string.dining_tikis_description));
