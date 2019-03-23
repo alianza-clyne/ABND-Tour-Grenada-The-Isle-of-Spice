@@ -31,22 +31,22 @@ public class HotelsResortsFragment extends Fragment {
         items.add(new Item(R.string.hotels_overview,
                 R.string.hotels_overview_description,
                 R.string.hotels_overview_pcredit,
-                R.drawable.color_red));
+                R.drawable.hotels_overview));
 
         items.add(new Item(R.string.hotels_spice_island,
                 R.string.hotels_spice_island_description,
                 R.string.hotels_spice_island_pcredit,
-                R.drawable.color_mustard_yellow));
+                R.drawable.hotels_spice_island));
 
         items.add(new Item(R.string.hotels_sandals,
                 R.string.hotels_sandals_description,
                 R.string.hotels_sandals_pcredit,
-                R.drawable.color_dusty_yellow));
+                R.drawable.hotels_sandals));
 
         items.add(new Item(R.string.hotels_calabash,
                 R.string.hotels_calabash_description,
                 R.string.hotels_calabash_pcredit,
-                R.drawable.color_green));
+                R.drawable.hotels_calabash));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
