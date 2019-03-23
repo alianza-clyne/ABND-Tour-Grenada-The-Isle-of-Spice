@@ -58,6 +58,11 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         // the ItemDescription TextView.
         ItemDescriptionTextView.setText(currentItem.getItemDescriptionId());
 
+        // Find the TextView in the list_individual_item.xml layout with the ID item_photo_credit_text_view.
+        TextView ItemPhotoCreditTextView = (TextView) listItemView.findViewById(R.id.item_photo_credit_text_view);
+        // Get the Item’s photo credit (if there is an image) from the currentItem object and set this text on
+        // the ItemPhotoCredit TextView.
+        ItemPhotoCreditTextView.setText(currentItem.getItemPhotoCreditId());
 
         // Find the ImageView in the list_individual_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);

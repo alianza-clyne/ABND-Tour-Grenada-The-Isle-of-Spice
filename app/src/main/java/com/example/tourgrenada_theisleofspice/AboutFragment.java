@@ -28,17 +28,17 @@ public class AboutFragment extends Fragment {
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
         items.add(new Item(R.string.about_welcome, R.string.about_welcome_description,
-                R.drawable.number_one));
+                R.string.about_welcome_pcredit, R.drawable.number_one));
         items.add(new Item(R.string.about_capital, R.string.about_capital_description,
-                R.drawable.number_two));
+                R.string.about_capital_pcredit, R.drawable.number_two));
         items.add(new Item(R.string.about_flag, R.string.about_flag_description,
-                R.drawable.number_three));
+                R.string.about_flag_pcredit, R.drawable.number_three));
         items.add(new Item(R.string.about_currency, R.string.about_currency_description,
-                R.drawable.number_four));
+                R.string.about_currency_pcredit, R.drawable.number_four));
         items.add(new Item(R.string.about_national_dish, R.string.about_national_dish_description,
-                R.drawable.number_five));
+                R.string.about_national_dish_pcredit, R.drawable.number_five));
         items.add(new Item(R.string.about_carnival, R.string.about_carnival_description,
-                R.drawable.number_six));
+                R.string.about_carnival_pcredit, R.drawable.number_six));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
