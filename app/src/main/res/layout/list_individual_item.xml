@@ -27,7 +27,6 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/list_item_height"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:layout_toRightOf="@id/image"
             android:orientation="vertical"
@@ -36,7 +35,7 @@
             <TextView
                 android:id="@+id/item_name_text_view"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="bottom"
                 android:textAppearance="?android:textAppearanceMedium"
@@ -47,7 +46,7 @@
             <TextView
                 android:id="@+id/item_photo_credit_text_view"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/white"
@@ -57,7 +56,7 @@
             <TextView
                 android:id="@+id/item_description_text_view"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/item_name_text_view"
                 android:layout_weight="1"
                 android:gravity="top"
