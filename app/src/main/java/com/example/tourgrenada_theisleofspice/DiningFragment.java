@@ -43,7 +43,9 @@ public class DiningFragment extends Fragment {
                 R.drawable.dining_umbrella));
 
         items.add(new Item(R.string.dining_tikis,
-                R.string.dining_tikis_description));
+                R.string.dining_tikis_description,
+                R.string.dining_tikis_pcredit,
+                R.drawable.dining_tikis));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
