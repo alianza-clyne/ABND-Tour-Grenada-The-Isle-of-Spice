@@ -27,27 +27,12 @@ public class ArtistsFragment extends Fragment {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.phrase_where_are_you_going,
-                R.string.miwok_phrase_where_are_you_going));
-        items.add(new Item(R.string.phrase_what_is_your_name,
-                R.string.miwok_phrase_what_is_your_name));
-        items.add(new Item(R.string.phrase_my_name_is,
-                R.string.miwok_phrase_my_name_is));
-        items.add(new Item(R.string.phrase_how_are_you_feeling,
-                R.string.miwok_phrase_how_are_you_feeling));
-        items.add(new Item(R.string.phrase_im_feeling_good,
-                R.string.miwok_phrase_im_feeling_good));
-        items.add(new Item(R.string.phrase_are_you_coming,
-                R.string.miwok_phrase_are_you_coming));
-        items.add(new Item(R.string.phrase_yes_im_coming,
-                R.string.miwok_phrase_yes_im_coming));
-        items.add(new Item(R.string.phrase_im_coming,
-                R.string.miwok_phrase_im_coming));
-        items.add(new Item(R.string.phrase_lets_go,
-                R.string.miwok_phrase_lets_go));
-        items.add(new Item(R.string.phrase_come_here,
-                R.string.miwok_phrase_come_here));
-
+        items.add(new Item(R.string.artists_overview,
+                R.string.artists_overview_description));
+        items.add(new Item(R.string.artists_joy_alianza,
+                R.string.artists_joy_alianza_description));
+        items.add(new Item(R.string.artists_cobie,
+                R.string.artists_cobie_description));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
