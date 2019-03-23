@@ -2,8 +2,8 @@ package com.example.tourgrenada_theisleofspice;
 
 /**
  * {@link Item} represents an item related to Grenada that a user can learn more about.
- * It contains resource IDs for the Item's name, Item's description, and
- * an optional image file for that item.
+ * It contains resource IDs for the Item's name, Item's description, optional photo credit if
+ * there is an image, and an optional image file for that item.
  */
 public class Item {
 
@@ -12,6 +12,9 @@ public class Item {
 
     /** String resource ID for the Item's description */
     private int mItemDescriptionId;
+
+    /** String resource ID for the Item's photo credit (if there is an image) */
+    private int mItemPhotoCreditId;
 
     /** Image resource ID for the Item */
     private int mImageResourceId = NO_IMAGE_PROVIDED;

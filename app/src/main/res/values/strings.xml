@@ -57,6 +57,9 @@
     <!-- Currency ItemDescription -->
     <string name="about_currency_description">Grenada\’s currency is the Eastern Caribbean Dollar.</string>
 
+    <!-- Currency ItemPhotoCredit -->
+    <string name="about_currency_pcredit">Image featured on Travel Money Finder</string>
+
     <!-- National Dish ItemName -->
     <string name="about_national_dish">Grenada\’s National Dish</string>
 
