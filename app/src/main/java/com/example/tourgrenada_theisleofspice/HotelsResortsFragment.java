@@ -28,23 +28,14 @@ public class HotelsResortsFragment extends Fragment {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.color_red, R.string.miwok_color_red,
+        items.add(new Item(R.string.hotels_overview, R.string.hotels_overview_description,
                 R.drawable.color_red));
-        items.add(new Item(R.string.color_mustard_yellow, R.string.miwok_color_mustard_yellow,
+        items.add(new Item(R.string.hotels_spice_island, R.string.hotels_spice_island_description,
                 R.drawable.color_mustard_yellow));
-        items.add(new Item(R.string.color_dusty_yellow, R.string.miwok_color_dusty_yellow,
+        items.add(new Item(R.string.hotels_sandals, R.string.hotels_sandals_description,
                 R.drawable.color_dusty_yellow));
-        items.add(new Item(R.string.color_green, R.string.miwok_color_green,
+        items.add(new Item(R.string.hotels_calabash, R.string.hotels_calabash_description,
                 R.drawable.color_green));
-        items.add(new Item(R.string.color_brown, R.string.miwok_color_brown,
-                R.drawable.color_brown));
-        items.add(new Item(R.string.color_gray, R.string.miwok_color_gray,
-                R.drawable.color_gray));
-        items.add(new Item(R.string.color_black, R.string.miwok_color_black,
-                R.drawable.color_black));
-        items.add(new Item(R.string.color_white, R.string.miwok_color_white,
-                R.drawable.color_white));
-
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
