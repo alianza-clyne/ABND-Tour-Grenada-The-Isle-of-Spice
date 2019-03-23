@@ -28,13 +28,19 @@ public class ArtistsFragment extends Fragment {
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
         items.add(new Item(R.string.artists_overview,
-                R.string.artists_overview_description));
+                R.string.artists_overview_description,
+                R.string.artists_overview_pcredit,
+                R.drawable.artists_overview));
 
         items.add(new Item(R.string.artists_joy_alianza,
-                R.string.artists_joy_alianza_description));
+                R.string.artists_joy_alianza_description,
+                R.string.artists_joy_alianza_pcredit,
+                R.drawable.artists_joy_alianza));
 
         items.add(new Item(R.string.artists_cobie,
-                R.string.artists_cobie_description));
+                R.string.artists_cobie_description,
+                R.string.artists_cobie_pcredit,
+                R.drawable.artists_cobie));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
