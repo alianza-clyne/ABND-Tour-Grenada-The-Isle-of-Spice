@@ -29,8 +29,10 @@ public class ArtistsFragment extends Fragment {
         final ArrayList<Item> items = new ArrayList<Item>();
         items.add(new Item(R.string.artists_overview,
                 R.string.artists_overview_description));
+
         items.add(new Item(R.string.artists_joy_alianza,
                 R.string.artists_joy_alianza_description));
+
         items.add(new Item(R.string.artists_cobie,
                 R.string.artists_cobie_description));
 

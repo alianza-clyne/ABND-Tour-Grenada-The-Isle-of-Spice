@@ -29,10 +29,13 @@ public class DiningFragment extends Fragment {
         final ArrayList<Item> items = new ArrayList<Item>();
         items.add(new Item(R.string.dining_overview,
                 R.string.dining_overview_description));
+
         items.add(new Item(R.string.dining_by_the_sea,
                 R.string.dining_by_the_sea_description));
+
         items.add(new Item(R.string.dining_umbrella,
                 R.string.dining_umbrella_description));
+
         items.add(new Item(R.string.dining_tikis,
                 R.string.dining_tikis_description));
 
