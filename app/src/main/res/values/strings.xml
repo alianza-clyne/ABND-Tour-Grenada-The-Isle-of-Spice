@@ -84,6 +84,160 @@
 
     <!-- Strings for ThingsToDoFragment [CHAR LIMIT=20] -->
 
+    <!-- Overview ItemName -->
+    <string name="things_to_do_overview">Exploring The Isle of Spice</string>
+
+    <!-- Overview ItemDescription -->
+    <string name="things_to_do_overview_description">
+From exploring the bustling streets of St. George’s to taking morning strolls along the soft sands of Grand Anse Beach, there are endless things to explore in Grenada!
+</string>
+
+    <!-- Overview ItemPhotoCredit -->
+    <string name="things_to_do_overview_pcredit">Image by Lisa Larsen from Pixabay</string>
+
+    <!-- Overview ItemName -->
+    <string name="things_to_do_st_georges">Explore St. George\’s</string>
+
+    <!-- Overview ItemDescription -->
+    <string name="things_to_do_st_georges_description">
+Filled with vivid, brightly painted homes and businesses, St. George\’s exudes creativity! One stroll through this beautiful city will make it clear why it is the capital of Grenada. Located on the southwestern shore of the island, you\'ll not only see breathtaking views, but you\’ll also find a myriad of savory restaurants.
+</string>
+
+    <!-- Overview ItemPhotoCredit -->
+    <string name="things_to_do_st_georges_pcredit">Image by Royal Caribbean Cruises</string>
+
+
+    <!-- Grand Anse Beach ItemName -->
+    <string name="things_to_do_grand_anse">Grand Anse Beach</string>
+
+    <!-- Grand Anse Beach ItemDescription -->
+    <string name="things_to_do_grand_anse_description">Want to have fun on the beach? Then, Grand Anse Beach is the perfect destination for you! Located along the southwestern coast of the Island, this two-mile long beach overlooks a sapphire-hued bay where the sun never meets the end of our imagination. Along with these beautiful views, you’ll find numerous hotels, restaurants, and shops that are sure to make your time in Grenada memorable!</string>
+
+    <!-- Grand Anse Beach ItemPhotoCredit -->
+    <string name="things_to_do_grand_anse_pcredit">Image by TripAdvisor</string>
+
+    <!-- River Antoine Rum Distillery ItemName -->
+    <string name="things_to_do_river_antoine">River Antoine Rum Distillery</string>
+
+    <!-- River Antoine Rum Distillery ItemDescription -->
+    <string name="things_to_do_river_antoine_description">Love a nice glass of rum? There is no better place to get it than the River Antoine Rum Distillery. Located in the northeast coast of the Island, this distillery has been producing bottles of rum since 1785. On top of rum tasting, this distillery offers guided tours that will allow you to get an inside peek of the rum-making process.</string>
+
+    <!-- River Antoine Rum Distillery ItemPhotoCredit -->
+    <string name="things_to_do_river_antoine_pcredit">Image by Rum Connection</string>
+
+    <!-- Grand Etang National Park and Forest Preserve ItemName -->
+    <string name="things_to_do_grand_etang">Grand Etang National Park and Forest Preserve</string>
+
+    <!-- Grand Etang National Park and Forest Preserve ItemDescription -->
+    <string name="things_to_do_grand_etang_description">Located in central Grenada, Grand Etang National Park is home to striking wildlife such as armadillos, mona monkeys, and tropical mockingbirds. With several hiking trails, you\’ll be able to see these exquisite wildlife while exercising your legs!</string>
+
+    <!-- Grand Etang National Park and Forest Preserve ItemPhotoCredit -->
+    <string name="things_to_do_grand_etang_pcredit">Image by Geocaching.com</string>
+
+    <!-- Strings for HotelsResortsFragment [CHAR LIMIT=20] -->
+
+    <!-- Overview ItemName -->
+    <string name="hotels_overview">Lay Your Head in Paradise</string>
+
+    <!-- Overview ItemDescription -->
+    <string name="hotels_overview_description">Grenada is home to some of the world\'s most beautiful resorts and hotels! With luxurious breezes and breathtaking views nearby, what is not to love?</string>
+
+    <!-- Overview ItemPhotoCredit -->
+    <string name="hotels_overview_pcredit">Image by TripAdvisor</string>
+
+    <!-- Spice Island Beach Resort ItemName -->
+    <string name="hotels_spice_island">Spice Island Beach Resort</string>
+
+    <!-- Spice Island Beach Resort ItemDescription -->
+    <string name="hotels_spice_island_description">Stretching across 8 acres of Grand Anse Beach, Spice Island Beach Resort is a family-run boutique resort. Each suite features a minibar, bathrobes, slippers, and a balcony.</string>
+
+    <!-- Spice Island Beach Resort ItemPhotoCredit -->
+    <string name="hotels_spice_island_pcredit">Image by TripAdvisor</string>
+
+    <!-- Sandals Grenada ItemName -->
+    <string name="hotels_sandals">Sandals Grenada</string>
+
+    <!-- Sandals Grenada ItemDescription -->
+    <string name="hotels_sandals_description">Sandals Grenada is the perfect destination for couples to experience the Isle of Spice\’s beauty while also spending quality time with one another. This resort includes a variety of amenities ranging from multiple restaurants to a spa.</string>
+
+    <!-- Sandals Grenada ItemPhotoCredit -->
+    <string name="hotels_sandals_pcredit">Image by Family Travel Forum</string>
+
+    <!-- Calabash Luxury Boutique Hotel ItemName -->
+    <string name="hotels_calabash">Calabash Luxury Boutique Hotel</string>
+
+    <!-- Calabash Luxury Boutique Hotel ItemDescription -->
+    <string name="hotels_calabash_description">Located on the southwestern end of Grenada, Calabash Luxury Boutique Hotel consists of 30 suites that are arranged in a horseshoe shape. With the hotel facing the L\'Anse aux Epines Beach, you are sure to be in the presence of beauty.</string>
+
+    <!-- Calabash Luxury Boutique Hotel ItemPhotoCredit -->
+    <string name="hotels_calabash_pcredit">Image by Kuoni</string>
+
+    <!-- Strings for DiningFragment [CHAR LIMIT=20] -->
+
+    <!-- Grenadian Dining ItemName -->
+    <string name="dining_overview">Elevate Your Taste Buds with Grenadian Dining!</string>
+
+    <!-- Grenadian Dining ItemDescription -->
+    <string name="dining_overview_description">With a nickname like the Isle of Spice, it\’s no surprise that Grenada is home to multitudes of restaurants that serve finger-licking, succulent delicacies! Want variety? Don\’t worry, Grenada has it all! Here are just a few restaurants to check out.</string>
+
+    <!-- Grenadian Dining ItemPhotoCredit -->
+    <string name="dining_overview_pcredit">Image by Carnival Cruise Line</string>
+
+    <!-- By The Sea ItemName -->
+    <string name="dining_by_the_sea">By The Sea</string>
+
+    <!-- By The Sea ItemDescription -->
+    <string name="dining_by_the_sea_description">Located on Greek Estuary Lane in Grenville, By The Sea offers a variety of cuisine ranging from Mediterranean to seafood!</string>
+
+    <!-- By The Sea ItemPhotoCredit -->
+    <string name="dining_by_the_sea_pcredit">Image by TripAdvisor</string>
+
+    <!-- Umbrellas Beach Bar ItemName -->
+    <string name="dining_umbrella">Umbrellas Beach Bar</string>
+
+    <!-- Umbrellas Beach Bar ItemDescription -->
+    <string name="dining_umbrella_description">Located on Grand Anse Beach in St. George\'s, Umbrellas Beach Bar offers a variety of foods ranging from seafood to cheesecake! On top of the delicious food, you\’ll also be able to enjoy a fantastic ocean view.</string>
+
+    <!-- Umbrellas Beach Bar ItemPhotoCredit -->
+    <string name="dining_umbrella_pcredit">Image by TripAdvisor</string>
+
+    <!-- Tikis' Grenada ItemName -->
+    <string name="dining_tikis">Tikis\' Grenada</string>
+
+    <!-- Tikis' Grenada ItemDescription -->
+    <string name="dining_tikis_description">Located on Grand Anse Main Rd in Grand Anse, Tikis\' Grenada offers a variety of foods and drinks ranging from burgers to cocktails!</string>
+
+    <!-- Tikis' Grenada ItemPhotoCredit -->
+    <string name="dining_tikis_pcredit">Image by TripAdvisor</string>
+
+    <!-- Strings for ArtistsFragment [CHAR LIMIT=20] -->
+
+    <!-- Overview ItemName -->
+    <string name="artists_overview">Artists Molded By The Grenadian Breeze</string>
+
+    <!-- Overview ItemDescription -->
+    <string name="artists_overview_description">Grenada has produced several artists whose artwork was molded by the luscious breezes of the Isle of Spice! Here are just a few of them.</string>
+
+    <!-- Overview ItemPhotoCredit -->
+    <string name="artists_overview_pcredit">Image by Robert Armstrong from Pixabay</string>
+
+    <!-- Authors Joy and Alianza ItemName -->
+    <string name="artists_joy_alianza">Joy &amp; Alianza Clyne | Authors of Tender Moments</string>
+
+    <!-- Authors Joy and Alianza ItemDescription -->
+    <string name="artists_joy_alianza_description">Joy and Alianza Clyne are a mother and daughter duo who are the authors of the Tender Moments Poetry Book Series. The series is a collection of life-long poetry that depict a mirage of life\'s circumstances as they unfold within their minds. With their first book published in 2015, the dynamic duo has four books&#8212;Tender Moments I: A Recap, Tender Moments 2: A Time for Reckonin\', Tender Moments 3: No Regrets, and Tender Moments 4: to Be Black and a Woman. Ready to experience this series for yourself? The print and Kindle version of this series can be found on Amazon!</string>
+
+    <!-- Authors Joy and Alianza ItemPhotoCredit -->
+    <string name="artists_joy_alianza_pcredit">Image and poem by Alianza - Featured in Tender Moments 2: A Time for Reckonin\'</string>
+
+    <!-- Cobie Buckmire ItemName -->
+    <string name="artists_cobie">Cobie Buckmire | Award-Winning Pianist</string>
+
+    <!-- Cobie Buckmire ItemDescription -->
+    <string name="artists_cobie_description">At only ten years old, Cobie Buckmire has become an internationally renowned pianist! In 2019, Cobie took home the top honor at the Chopin International Piano Competition in the Junior Category.</string>
+
+    <!-- Cobie Buckmire ItemPhotoCredit -->
+    <string name="artists_cobie_pcredit">Image featured on Grenadian Broadcasting Network</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
