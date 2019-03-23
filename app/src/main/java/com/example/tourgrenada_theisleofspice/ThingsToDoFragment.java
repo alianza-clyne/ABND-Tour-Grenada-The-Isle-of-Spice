@@ -26,27 +26,16 @@ public class ThingsToDoFragment extends Fragment {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.family_father, R.string.miwok_family_father,
+        items.add(new Item(R.string.things_to_do_overview, R.string.things_to_do_overview_description,
                 R.drawable.family_father));
-        items.add(new Item(R.string.family_mother, R.string.miwok_family_mother,
+        items.add(new Item(R.string.things_to_do_st_georges, R.string.things_to_do_st_georges_description,
                 R.drawable.family_mother));
-        items.add(new Item(R.string.family_son, R.string.miwok_family_son,
+        items.add(new Item(R.string.things_to_do_grand_anse, R.string.things_to_do_grand_anse_description,
                 R.drawable.family_son));
-        items.add(new Item(R.string.family_daughter, R.string.miwok_family_daughter,
+        items.add(new Item(R.string.things_to_do_river_antoine, R.string.things_to_do_river_antoine_description,
                 R.drawable.family_daughter));
-        items.add(new Item(R.string.family_older_brother, R.string.miwok_family_older_brother,
+        items.add(new Item(R.string.things_to_do_grand_etang, R.string.things_to_do_grand_etang_description,
                 R.drawable.family_older_brother));
-        items.add(new Item(R.string.family_younger_brother, R.string.miwok_family_younger_brother,
-                R.drawable.family_younger_brother));
-        items.add(new Item(R.string.family_older_sister, R.string.miwok_family_older_sister,
-                R.drawable.family_older_sister));
-        items.add(new Item(R.string.family_younger_sister, R.string.miwok_family_younger_sister,
-                R.drawable.family_younger_sister));
-        items.add(new Item(R.string.family_grandmother, R.string.miwok_family_grandmother,
-                R.drawable.family_grandmother));
-        items.add(new Item(R.string.family_grandfather, R.string.miwok_family_grandfather,
-                R.drawable.family_grandfather));
-
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
