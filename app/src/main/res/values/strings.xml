@@ -48,6 +48,9 @@
     <!-- Flag ItemDescription -->
     <string name="about_flag_description">This is the flag of Grenada.</string>
 
+    <!-- Flag ItemPhotoCredit -->
+    <string name="about_flag_pcredit">Image by Ronny K from Pixabay</string>
+
     <!-- Currency ItemName -->
     <string name="about_currency">Grenada\’s Currency</string>
 

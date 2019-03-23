@@ -27,27 +27,18 @@ public class AboutFragment extends Fragment {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(R.string.number_one, R.string.miwok_number_one,
+        items.add(new Item(R.string.about_welcome, R.string.about_welcome_description,
                 R.drawable.number_one));
-        items.add(new Item(R.string.number_two, R.string.miwok_number_two,
+        items.add(new Item(R.string.about_capital, R.string.about_capital_description,
                 R.drawable.number_two));
-        items.add(new Item(R.string.number_three, R.string.miwok_number_three,
+        items.add(new Item(R.string.about_flag, R.string.about_flag_description,
                 R.drawable.number_three));
-        items.add(new Item(R.string.number_four, R.string.miwok_number_four,
+        items.add(new Item(R.string.about_currency, R.string.about_currency_description,
                 R.drawable.number_four));
-        items.add(new Item(R.string.number_five, R.string.miwok_number_five,
+        items.add(new Item(R.string.about_national_dish, R.string.about_national_dish_description,
                 R.drawable.number_five));
-        items.add(new Item(R.string.number_six, R.string.miwok_number_six,
+        items.add(new Item(R.string.about_carnival, R.string.about_carnival_description,
                 R.drawable.number_six));
-        items.add(new Item(R.string.number_seven, R.string.miwok_number_seven,
-                R.drawable.number_seven));
-        items.add(new Item(R.string.number_eight, R.string.miwok_number_eight,
-                R.drawable.number_eight));
-        items.add(new Item(R.string.number_nine, R.string.miwok_number_nine,
-                R.drawable.number_nine));
-        items.add(new Item(R.string.number_ten, R.string.miwok_number_ten,
-                R.drawable.number_ten));
-
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
