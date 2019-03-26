@@ -42,10 +42,19 @@
             tools:text="Item\'s Name" />
 
         <!-- Item's Photo Credit -->
+        <!--
+        Photo credit will appear on the bottom of page.
+        https://stackoverflow.com/questions/5242951/android-text-over-image
+        provides tips on how to do this.
+        -->
         <TextView
             android:id="@+id/item_photo_credit_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/image"
+            android:layout_alignTop="@id/image"
+            android:layout_alignRight="@id/image"
+            android:layout_alignBottom="@id/image"
             android:layout_weight="1"
             android:textAppearance="?android:textAppearanceMedium"
             android:textStyle="bold"
