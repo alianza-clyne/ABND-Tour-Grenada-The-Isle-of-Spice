@@ -55,6 +55,7 @@
             android:layout_alignTop="@id/image"
             android:layout_alignRight="@id/image"
             android:layout_alignBottom="@id/image"
+            android:background="@color/color_white"
             android:layout_weight="1"
             android:textAppearance="?android:textAppearanceMedium"
             android:textStyle="bold"

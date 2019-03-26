@@ -24,4 +24,8 @@
     <!-- Background color for the Grenadian Artists category -->
     <color name="category_artists">#16AFCA</color>
 
+    <!-- Color white -->
+    <color name="color_white">#ffffff</color>
+
+
 </resources>
