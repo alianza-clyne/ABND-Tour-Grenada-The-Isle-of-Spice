@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- Item's Image -->
         <ImageView
             android:id="@+id/image"
             android:layout_width="match_parent"
@@ -29,6 +30,7 @@
             android:contentDescription="CardImageViewDesc"
             android:scaleType="centerCrop" />
 
+        <!-- Item's Name -->
         <TextView
             android:id="@+id/item_name_text_view"
             android:layout_width="match_parent"
@@ -39,6 +41,7 @@
             android:textStyle="bold"
             tools:text="Item\'s Name" />
 
+        <!-- Item's Photo Credit -->
         <TextView
             android:id="@+id/item_photo_credit_text_view"
             android:layout_width="match_parent"
@@ -48,6 +51,7 @@
             android:textStyle="bold"
             tools:text="Item\'s Photo Credit" />
 
+        <!-- Item's Description -->
         <TextView
             android:id="@+id/item_description_text_view"
             android:layout_width="match_parent"
