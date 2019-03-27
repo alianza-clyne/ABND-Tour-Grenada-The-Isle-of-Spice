@@ -44,4 +44,30 @@
         <item name="android:textColor">#A8A19E</item>
     </style>
 
+    <!-- Style for ItemPhotoCredit TextView -->
+    <style name="style_item_photo_credit">
+        <item name="android:textColor">@color/color_dim_gray</item>
+        <item name="android:background">@color/color_honey_dew</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Style for ItemName TextView -->
+    <style name="style_item_name">
+        <item name="android:textColor">@color/color_medium_sea_green</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- Style for ItemDescription TextView -->
+    <style name="style_item_description">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+
+
 </resources>

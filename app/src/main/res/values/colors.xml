@@ -24,8 +24,20 @@
     <!-- Background color for the Grenadian Artists category -->
     <color name="category_artists">#16AFCA</color>
 
-    <!-- Color white -->
+    <!-- Background color for ItemPhotoCredit TextView | Color - honeydew -->
+    <color name="color_honey_dew">#F0FFF0</color>
+
+    <!-- Color - white -->
     <color name="color_white">#ffffff</color>
+
+    <!-- Color - medium sea green -->
+    <color name="color_medium_sea_green">#3CB371</color>
+
+    <!-- Color - black -->
+    <color name="color_black">#000000</color>
+
+    <!-- Color dim gray -->
+    <color name="color_dim_gray">#696969</color>
 
 
 </resources>
