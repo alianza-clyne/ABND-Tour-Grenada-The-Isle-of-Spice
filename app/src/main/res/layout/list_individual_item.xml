@@ -16,19 +16,21 @@
     card_view:contentPadding="10dp"
     card_view:contentPaddingBottom="0dp">
 
+
     <RelativeLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <!-- Item's Image -->
         <ImageView
             android:id="@+id/image"
             android:layout_width="match_parent"
             android:layout_height="430dp"
-            android:minHeight="430dp"
-            android:maxHeight="430dp"
             android:contentDescription="CardImageViewDesc"
+            android:maxHeight="430dp"
+            android:minHeight="430dp"
             android:scaleType="centerCrop" />
 
 
@@ -43,12 +45,13 @@
             android:fontFamily="cursive"
             tools:text="Item\'s Name" />
 
-        <!--
-        Item's Photo Credit
 
-        Photo credit will appear on the bottom of page.
-        https://stackoverflow.com/questions/5242951/android-text-over-image
-        provides tips on how to do this.
+        <!--
+            Item's Photo Credit
+
+            Photo credit will appear on the bottom of page.
+            https://stackoverflow.com/questions/5242951/android-text-over-image
+            provides tips on how to do this.
         -->
         <TextView
             android:id="@+id/item_photo_credit_text_view"
@@ -58,6 +61,7 @@
             android:layout_alignBottom="@id/image"
             android:layout_weight="1"
             tools:text="Item\'s Photo Credit" />
+
 
         <!-- Item's Description -->
         <TextView

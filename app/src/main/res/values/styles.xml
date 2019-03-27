@@ -8,11 +8,13 @@
     </style>
 
     <!-- App bar style -->
-    <!-- Instead of using parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse"
-    I used parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse"
-    since this style is deprecated.
-    Credit: https://stackoverflow.com/questions/28877156/no-resource-found-that-matches-the-given-name-androidstyle-widget-appcompat-l?answertab=active#tab-top
-    Scroll down to answer by trustidkid. -->
+    <!--
+        Instead of using parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse"
+        I used parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse"
+        since this style is deprecated.
+
+        Credit: https://stackoverflow.com/a/52505628
+     -->
     <style name="MiwokAppBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
 
         <!-- Remove the shadow below the app bar -->
@@ -37,6 +39,7 @@
         <item name="android:textColor">@color/color_dim_gray</item>
         <item name="android:background">@color/color_honey_dew</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:paddingTop">2dp</item>
         <item name="android:paddingBottom">2dp</item>
     </style>
 
