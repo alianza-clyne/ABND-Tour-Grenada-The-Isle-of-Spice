@@ -31,30 +31,6 @@
             android:contentDescription="CardImageViewDesc"
             android:scaleType="centerCrop" />
 
-        <!--
-                <ImageView
-            android:id="@+id/image"
-            android:layout_width="match_parent"
-            android:layout_height="360dp"
-            android:minHeight="360dp"
-            android:maxHeight="450dp"
-            android:contentDescription="CardImageViewDesc"
-            android:scaleType="centerCrop" />
-
-        -->
-
-        <!--
-                <ImageView
-            android:id="@+id/image"
-            android:layout_width="match_parent"
-            android:layout_height="450dp"
-                        android:minHeight="200dp"
-            android:maxHeight="450dp"
-            android:minHeight="450dp"
-            android:maxHeight="700dp"
-            android:contentDescription="CardImageViewDesc"
-            android:scaleType="centerCrop" />
-        -->
 
         <!-- Item's Name -->
         <TextView

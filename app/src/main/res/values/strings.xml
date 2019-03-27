@@ -332,10 +332,7 @@
     </string>
 
     <!-- Authors Joy and Alianza ItemPhotoCredit -->
-    <string name="artists_joy_alianza_pcredit">
-        Poem featured in Tender Moments 2:
-        \nA Time for Reckonin\'
-    </string>
+    <string name="artists_joy_alianza_pcredit">Front cover of Tender Moments 4</string>
 
     <!-- Cobie Buckmire ItemName -->
     <string name="artists_cobie">Cobie Buckmire | Award-Winning Pianist</string>
