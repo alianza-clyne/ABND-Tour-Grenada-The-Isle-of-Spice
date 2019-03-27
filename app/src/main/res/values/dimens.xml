@@ -2,6 +2,10 @@
 <resources>
 
     <!-- Height of each list item -->
-    <dimen name="list_item_height">250dp</dimen>
+    <!--
+    <dimen name="list_item_min_height">600dp</dimen>
+    -->
+    <dimen name="list_item_min_height">250dp</dimen>
+
 
 </resources>
