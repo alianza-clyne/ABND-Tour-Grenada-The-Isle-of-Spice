@@ -1,10 +1,19 @@
 <resources>
 
     <!-- Base application theme. -->
+    <!--
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
         <item name="actionBarStyle">@style/MiwokAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    -->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
@@ -14,10 +23,14 @@
     since this style is deprecated.
     Credit: https://stackoverflow.com/questions/28877156/no-resource-found-that-matches-the-given-name-androidstyle-widget-appcompat-l?answertab=active#tab-top
     Scroll down to answer by trustidkid. -->
+    <!--
     <style name="MiwokAppBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+    -->
         <!-- Remove the shadow below the app bar -->
+    <!--
         <item name="elevation">0dp</item>
     </style>
+-->
 
     <!-- Style for a tab that displays a category name -->
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
@@ -30,6 +43,5 @@
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textColor">#A8A19E</item>
     </style>
-
 
 </resources>
