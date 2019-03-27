@@ -1,5 +1,5 @@
 # Tour Grenada - The Isle of Spice
-This is the Tour Guide App for [Udacity's Android Basics Nanodegree](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803)! This tour takes you on a tour of the Caribbean island of Grenada (nicknamed the Isle of Spice). 
+This is the Tour Guide App for [Udacity's Android Basics Nanodegree](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803)! This app takes you on a tour of the Caribbean island of Grenada (nicknamed the Isle of Spice). 
 
 With this app, you’ll learn the basics of Grenada as well as explore things to do, hotels/resorts, and dining options! You’ll even be able to learn about artists whose artwork was molded by the luscious breezes of the Isle of Spice!
 
