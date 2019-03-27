@@ -23,14 +23,14 @@
     since this style is deprecated.
     Credit: https://stackoverflow.com/questions/28877156/no-resource-found-that-matches-the-given-name-androidstyle-widget-appcompat-l?answertab=active#tab-top
     Scroll down to answer by trustidkid. -->
-    <!--
+
     <style name="MiwokAppBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
-    -->
+
         <!-- Remove the shadow below the app bar -->
-    <!--
+
         <item name="elevation">0dp</item>
     </style>
--->
+
 
     <!-- Style for a tab that displays a category name -->
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
