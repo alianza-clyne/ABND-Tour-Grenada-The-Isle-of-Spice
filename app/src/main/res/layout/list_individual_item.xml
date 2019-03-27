@@ -34,6 +34,7 @@
         <TextView
             android:id="@+id/item_name_text_view"
             style="@style/style_item_name"
+            android:fontFamily="cursive"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/image"
