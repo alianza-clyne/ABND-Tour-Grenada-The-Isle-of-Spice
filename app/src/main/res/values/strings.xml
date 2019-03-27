@@ -25,9 +25,14 @@
     <!-- Welcome ItemDescription -->
     <string name="about_welcome_description">
         Nicknamed the Isle of Spice, Grenada is a Caribbean island nestled between the Caribbean Sea and
-        Atlantic Ocean. It\’s one of the most exotic islands in the Caribbean. The exquisite aromas of
-        spice float through the breeze as the luxurious ocean waves caress the island\’s crystal white sands.
-        There is truly no better place to vacation than the Isle of Spice where it is always nice!
+        Atlantic Ocean.
+        \n
+        \nIt\’s one of the most exotic islands in the Caribbean.
+        \n
+        \nThe exquisite aromas of spice float through the breeze as the luxurious ocean waves
+        caress the island\’s crystal white sands.
+        \n
+        \nThere is truly no better place to vacation than the Isle of Spice where it is always nice!
     </string>
 
     <!-- Welcome ItemPhotoCredit -->
@@ -65,9 +70,12 @@
 
     <!-- National Dish ItemDescription -->
     <string name="about_national_dish_description">
-        Dabble your lips around our island’s delicacy, Oil Down! Sauteed in coconut milk and various
-        spices, this mouthwatering dish is made of breadfruit, meats, vegetables, and dumplings.
-        Once you get a taste of Oil Down, you’ll never be the same!
+        Dabble your lips around our island’s delicacy, Oil Down!
+        \n
+        \nSauteed in coconut milk and various spices, this mouthwatering dish is made of
+        breadfruit, meats, vegetables, and dumplings.
+        \n
+        \nOnce you get a taste of Oil Down, you’ll never be the same!
     </string>
 
     <!-- National Dish ItemPhotoCredit -->
@@ -78,10 +86,13 @@
 
     <!-- Carnival ItemDescription -->
     <string name="about_carnival_description">
-        One of Grenada’s most festive annual traditions is Carnival! Commonly referred to as Spicemas,
-        this festival occurs during the second Monday and Tuesday in August. Here you can be free
-        to express yourself, enjoy some delicious food, and wind your hips to the intoxicating
-        melodies of Calypso and Soca music!
+        One of Grenada’s most festive annual traditions is Carnival!
+        \n
+        \nCommonly referred to as Spicemas, this festival occurs during the second Monday and
+        Tuesday in August.
+        \n
+        \nHere you can be free to express yourself, enjoy some delicious food, a
+        nd wind your hips to the intoxicating melodies of Calypso and Soca music!
     </string>
 
     <!-- Carnival ItemPhotoCredit -->
@@ -95,8 +106,9 @@
 
     <!-- Overview ItemDescription -->
     <string name="things_to_do_overview_description">
-From exploring the bustling streets of St. George’s to taking morning strolls along the soft sands of Grand Anse Beach, there are endless things to explore in Grenada!
-</string>
+        From exploring the bustling streets of St. George’s to taking morning strolls along the
+        soft sands of Grand Anse Beach, there are endless things to explore in Grenada!
+    </string>
 
     <!-- Overview ItemPhotoCredit -->
     <string name="things_to_do_overview_pcredit">Image by Lisa Larsen from Pixabay</string>
@@ -106,8 +118,13 @@ From exploring the bustling streets of St. George’s to taking morning strolls 
 
     <!-- Overview ItemDescription -->
     <string name="things_to_do_st_georges_description">
-Filled with vivid, brightly painted homes and businesses, St. George\’s exudes creativity! One stroll through this beautiful city will make it clear why it is the capital of Grenada. Located on the southwestern shore of the island, you\'ll not only see breathtaking views, but you\’ll also find a myriad of savory restaurants.
-</string>
+        Filled with vivid, brightly painted homes and businesses, St. George\’s exudes creativity!
+        \n
+        \nOne stroll through this beautiful city will make it clear why it is the capital of Grenada.
+        \n
+        \nLocated on the southwestern shore of the island, you\'ll not only see breathtaking views,
+        but you\’ll also find a myriad of savory restaurants.
+    </string>
 
     <!-- Overview ItemPhotoCredit -->
     <string name="things_to_do_st_georges_pcredit">Image by Royal Caribbean Cruises</string>
@@ -117,7 +134,15 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="things_to_do_grand_anse">Grand Anse Beach</string>
 
     <!-- Grand Anse Beach ItemDescription -->
-    <string name="things_to_do_grand_anse_description">Want to have fun on the beach? Then, Grand Anse Beach is the perfect destination for you! Located along the southwestern coast of the Island, this two-mile long beach overlooks a sapphire-hued bay where the sun never meets the end of our imagination. Along with these beautiful views, you’ll find numerous hotels, restaurants, and shops that are sure to make your time in Grenada memorable!</string>
+    <string name="things_to_do_grand_anse_description">
+        Want to have fun on the beach? Then, Grand Anse Beach is the perfect destination for you!
+        \n
+        \nLocated along the southwestern coast of the Island, this two-mile long beach overlooks a
+        sapphire-hued bay where the sun never meets the end of our imagination.
+        \n
+        \nAlong with these beautiful views, you’ll find numerous hotels, restaurants, and shops
+        that are sure to make your time in Grenada memorable!
+    </string>
 
     <!-- Grand Anse Beach ItemPhotoCredit -->
     <string name="things_to_do_grand_anse_pcredit">Image by TripAdvisor</string>
@@ -126,7 +151,16 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="things_to_do_river_antoine">River Antoine Rum Distillery</string>
 
     <!-- River Antoine Rum Distillery ItemDescription -->
-    <string name="things_to_do_river_antoine_description">Love a nice glass of rum? There is no better place to get it than the River Antoine Rum Distillery. Located in the northeast coast of the Island, this distillery has been producing bottles of rum since 1785. On top of rum tasting, this distillery offers guided tours that will allow you to get an inside peek of the rum-making process.</string>
+    <string name="things_to_do_river_antoine_description">
+        Love a nice glass of rum? There is no better place to get it than the River Antoine Rum
+        Distillery.
+        \n
+        \nLocated in the northeast coast of the Island, this distillery has been
+        producing bottles of rum since 1785.
+        \n
+        \nOn top of rum tasting, this distillery offers guided
+        tours that will allow you to get an inside peek of the rum-making process.
+    </string>
 
     <!-- River Antoine Rum Distillery ItemPhotoCredit -->
     <string name="things_to_do_river_antoine_pcredit">Image by Rum Connection</string>
@@ -135,7 +169,13 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="things_to_do_grand_etang">Grand Etang National Park and Forest Preserve</string>
 
     <!-- Grand Etang National Park and Forest Preserve ItemDescription -->
-    <string name="things_to_do_grand_etang_description">Located in central Grenada, Grand Etang National Park is home to striking wildlife such as armadillos, mona monkeys, and tropical mockingbirds. With several hiking trails, you\’ll be able to see these exquisite wildlife while exercising your legs!</string>
+    <string name="things_to_do_grand_etang_description">
+        Located in central Grenada, Grand Etang National Park is home to striking wildlife such
+        as armadillos, mona monkeys, and tropical mockingbirds.
+        \n
+        \nWith several hiking trails, you\’ll be able to see these exquisite wildlife while
+        exercising your legs!
+    </string>
 
     <!-- Grand Etang National Park and Forest Preserve ItemPhotoCredit -->
     <string name="things_to_do_grand_etang_pcredit">Image by Geocaching.com</string>
@@ -146,7 +186,11 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="hotels_overview">Lay Your Head in Paradise</string>
 
     <!-- Overview ItemDescription -->
-    <string name="hotels_overview_description">Grenada is home to some of the world\'s most beautiful resorts and hotels! With luxurious breezes and breathtaking views nearby, what is not to love?</string>
+    <string name="hotels_overview_description">
+        Grenada is home to some of the world\'s most beautiful resorts and hotels!
+        \n
+        \nWith luxurious breezes and breathtaking views nearby, what is not to love?
+    </string>
 
     <!-- Overview ItemPhotoCredit -->
     <string name="hotels_overview_pcredit">Image by TripAdvisor</string>
@@ -155,7 +199,12 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="hotels_spice_island">Spice Island Beach Resort</string>
 
     <!-- Spice Island Beach Resort ItemDescription -->
-    <string name="hotels_spice_island_description">Stretching across 8 acres of Grand Anse Beach, Spice Island Beach Resort is a family-run boutique resort. Each suite features a minibar, bathrobes, slippers, and a balcony.</string>
+    <string name="hotels_spice_island_description">
+        Stretching across 8 acres of Grand Anse Beach, Spice Island Beach Resort is a family-run
+        boutique resort.
+        \n
+        \nEach suite features a minibar, bathrobes, slippers, and a balcony.
+    </string>
 
     <!-- Spice Island Beach Resort ItemPhotoCredit -->
     <string name="hotels_spice_island_pcredit">Image by TripAdvisor</string>
@@ -164,7 +213,12 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="hotels_sandals">Sandals Grenada</string>
 
     <!-- Sandals Grenada ItemDescription -->
-    <string name="hotels_sandals_description">Sandals Grenada is the perfect destination for couples to experience the Isle of Spice\’s beauty while also spending quality time with one another. This resort includes a variety of amenities ranging from multiple restaurants to a spa.</string>
+    <string name="hotels_sandals_description">
+        Sandals Grenada is the perfect destination for couples to experience the Isle of
+        Spice\’s beauty while also spending quality time with one another.
+        \n
+        \nThis resort includes a variety of amenities ranging from multiple restaurants to a spa.
+    </string>
 
     <!-- Sandals Grenada ItemPhotoCredit -->
     <string name="hotels_sandals_pcredit">Image by Family Travel Forum</string>
@@ -173,7 +227,13 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="hotels_calabash">Calabash Luxury Boutique Hotel</string>
 
     <!-- Calabash Luxury Boutique Hotel ItemDescription -->
-    <string name="hotels_calabash_description">Located on the southwestern end of Grenada, Calabash Luxury Boutique Hotel consists of 30 suites that are arranged in a horseshoe shape. With the hotel facing the L\'Anse aux Epines Beach, you are sure to be in the presence of beauty.</string>
+    <string name="hotels_calabash_description">
+        Located on the southwestern end of Grenada, Calabash Luxury Boutique Hotel consists of
+        30 suites that are arranged in a horseshoe shape.
+        \n
+        \nWith the hotel facing the L\'Anse aux Epines Beach, you are sure to be in the
+        presence of beauty.
+    </string>
 
     <!-- Calabash Luxury Boutique Hotel ItemPhotoCredit -->
     <string name="hotels_calabash_pcredit">Image by Kuoni</string>
@@ -184,7 +244,14 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="dining_overview">Elevate Your Taste Buds with Grenadian Dining!</string>
 
     <!-- Grenadian Dining ItemDescription -->
-    <string name="dining_overview_description">With a nickname like the Isle of Spice, it\’s no surprise that Grenada is home to multitudes of restaurants that serve finger-licking, succulent delicacies! Want variety? Don\’t worry, Grenada has it all! Here are just a few restaurants to check out.</string>
+    <string name="dining_overview_description">
+        With a nickname like the Isle of Spice, it\’s no
+        surprise that Grenada is home to multitudes of restaurants that serve finger-licking,
+        succulent delicacies!
+        \n
+        \nWant variety? Don\’t worry, Grenada has it all! Here are just a few
+        restaurants to check out.
+    </string>
 
     <!-- Grenadian Dining ItemPhotoCredit -->
     <string name="dining_overview_pcredit">Image by Carnival Cruise Line</string>
@@ -193,7 +260,10 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="dining_by_the_sea">By The Sea</string>
 
     <!-- By The Sea ItemDescription -->
-    <string name="dining_by_the_sea_description">Located on Greek Estuary Lane in Grenville, By The Sea offers a variety of cuisine ranging from Mediterranean to seafood!</string>
+    <string name="dining_by_the_sea_description">
+        Located on Greek Estuary Lane in Grenville, By The Sea offers a variety of cuisine
+        ranging from Mediterranean to seafood!
+    </string>
 
     <!-- By The Sea ItemPhotoCredit -->
     <string name="dining_by_the_sea_pcredit">Image by TripAdvisor</string>
@@ -202,7 +272,12 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="dining_umbrella">Umbrellas Beach Bar</string>
 
     <!-- Umbrellas Beach Bar ItemDescription -->
-    <string name="dining_umbrella_description">Located on Grand Anse Beach in St. George\'s, Umbrellas Beach Bar offers a variety of foods ranging from seafood to cheesecake! On top of the delicious food, you\’ll also be able to enjoy a fantastic ocean view.</string>
+    <string name="dining_umbrella_description">
+        Located on Grand Anse Beach in St. George\'s, Umbrellas Beach Bar offers a variety
+        of foods ranging from seafood to cheesecake!
+        \n
+        \nOn top of the delicious food, you\’ll also be able to enjoy a fantastic ocean view.
+    </string>
 
     <!-- Umbrellas Beach Bar ItemPhotoCredit -->
     <string name="dining_umbrella_pcredit">Image by TripAdvisor</string>
@@ -211,7 +286,10 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="dining_tikis">Tikis\' Grenada</string>
 
     <!-- Tikis' Grenada ItemDescription -->
-    <string name="dining_tikis_description">Located on Grand Anse Main Rd in Grand Anse, Tikis\' Grenada offers a variety of foods and drinks ranging from burgers to cocktails!</string>
+    <string name="dining_tikis_description">
+        Located on Grand Anse Main Rd in Grand Anse, Tikis\' Grenada offers a variety of foods
+        and drinks ranging from burgers to cocktails!
+    </string>
 
     <!-- Tikis' Grenada ItemPhotoCredit -->
     <string name="dining_tikis_pcredit">Image by TripAdvisor</string>
@@ -222,7 +300,12 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="artists_overview">Artists Molded By The Grenadian Breeze</string>
 
     <!-- Overview ItemDescription -->
-    <string name="artists_overview_description">Grenada has produced several artists whose artwork was molded by the luscious breezes of the Isle of Spice! Here are just a few of them.</string>
+    <string name="artists_overview_description">
+        Grenada has produced several artists whose artwork was molded by the luscious breezes
+        of the Isle of Spice!
+        \n
+        \nHere are just a few of them.
+    </string>
 
     <!-- Overview ItemPhotoCredit -->
     <string name="artists_overview_pcredit">Image by Robert Armstrong from Pixabay</string>
@@ -231,16 +314,39 @@ Filled with vivid, brightly painted homes and businesses, St. George\’s exudes
     <string name="artists_joy_alianza">Joy &amp; Alianza Clyne | Authors of Tender Moments</string>
 
     <!-- Authors Joy and Alianza ItemDescription -->
-    <string name="artists_joy_alianza_description">Joy and Alianza Clyne are a mother and daughter duo who are the authors of the Tender Moments Poetry Book Series. The series is a collection of life-long poetry that depict a mirage of life\'s circumstances as they unfold within their minds. With their first book published in 2015, the dynamic duo has four books&#8212;Tender Moments I: A Recap, Tender Moments 2: A Time for Reckonin\', Tender Moments 3: No Regrets, and Tender Moments 4: to Be Black and a Woman. Ready to experience this series for yourself? The print and Kindle version of this series can be found on Amazon!</string>
+    <string name="artists_joy_alianza_description">
+        Joy and Alianza Clyne are a mother and daughter duo who are the authors of the
+        Tender Moments Poetry Book Series.
+        \n
+        \nThe series is a collection of life-long poetry that
+        depict a mirage of life\'s circumstances as they unfold within their minds.
+        \n
+        \nWith their first book published in 2015, the dynamic duo has four books&#8212;
+        \nTender Moments I: A Recap,
+        \nTender Moments 2: A Time for Reckonin\',
+        \nTender Moments 3: No Regrets, and
+        \nTender Moments 4: to Be Black and a Woman.
+        \n
+        \nReady to experience this series for yourself? The print and Kindle version of this
+        series can be found on Amazon!
+    </string>
 
     <!-- Authors Joy and Alianza ItemPhotoCredit -->
-    <string name="artists_joy_alianza_pcredit">Image and poem by Alianza - Featured in Tender Moments 2: A Time for Reckonin\'</string>
+    <string name="artists_joy_alianza_pcredit">
+        Poem featured in Tender Moments 2:
+        \nA Time for Reckonin\'
+    </string>
 
     <!-- Cobie Buckmire ItemName -->
     <string name="artists_cobie">Cobie Buckmire | Award-Winning Pianist</string>
 
     <!-- Cobie Buckmire ItemDescription -->
-    <string name="artists_cobie_description">At only ten years old, Cobie Buckmire has become an internationally renowned pianist! In 2019, Cobie took home the top honor at the Chopin International Piano Competition in the Junior Category.</string>
+    <string name="artists_cobie_description">
+        At only ten years old, Cobie Buckmire has become an internationally renowned pianist!
+        \n
+        \nIn 2019, Cobie took home the top honor at the Chopin International Piano Competition
+        in the Junior Category.
+    </string>
 
     <!-- Cobie Buckmire ItemPhotoCredit -->
     <string name="artists_cobie_pcredit">Image featured on Grenadian Broadcasting Network</string>
